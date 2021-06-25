@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'AngularLesson';
   textToChange = 'Type something here, its kinda empty';
-  Alejandro = ["I like to play baseball", "I like to watch anime", "I like to draw", "I enjoy outdoor activites"];
+  Alejandro = ["My name is Alejandro", "I am 14 years old", "I like to watch anime", "I enjoy outdoor activites"];
+}
+export class Me {
+  name = 'Alejandro'
+  age = '14'
+  height = '5 feet, 7 inches'
 }
