@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<input [(ngModel)] = "textToChange" />
+<h1>{{textToChange}}</h1>
+<ul>
+  <li *ngFor = "let hobby of Alejandro">{{hobby}}
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
